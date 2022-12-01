@@ -484,6 +484,7 @@ footer p {
     align-items: center;
     color: var(--light-color);
     font-weight: 300;
+    font-size: 14px;
 }
 
 footer p a {
