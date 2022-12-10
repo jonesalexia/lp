@@ -1,6 +1,7 @@
 @media screen and (max-width:880px) {
-  
-   
+    html {
+      overflow-x: hidden;
+    }
     .logo {
       margin-top: -30px;
     }
@@ -8,16 +9,18 @@
     .nav-bar {
       justify-content: space-between;
     }
+
     .hamburger {
       position: absolute;
       top: 5em;
       right: 5%;
-      margin-left: -2em;
+      margin-left: 10px;
       margin-top: -60px;
       width: 2em;
       height: 45px;
       z-index: 10;
     }
+
     .hamburger div {
       position: relative;
       width: 2em;
@@ -28,15 +31,14 @@
       cursor: pointer;
       transition: all 0.5s ease-in-out;
     }
+
     .nav-toggle {
       position: fixed;
       width: 100%;
-      height: 100%;
+      height: 1200px;
       background-color: #FFFFFF;;
-      top: -100%;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      padding-bottom: -40px;
+      
       overflow: hidden;
       transition: all 0.3s ease-in-out;
       transform: scale(0);
@@ -54,19 +56,22 @@
       justify-content: center;
       gap: 30px;
       transition: color 0.2s ease-in-out;
-      height: 400px;
+      
       width: 200%;
-      margin-left: 60px;
+      margin-left: 30px;
+      margin-top: -500px;
     }
   
     #toggle:checked + .hamburger .top-bun {
       transform: rotate(-45deg);
       margin-top: 25px;
     }
+
     #toggle:checked + .hamburger .bottom-bun {
       opacity: 0;
       transform: rotate(45deg);
     }
+
     #toggle:checked + .hamburger .meat {
       transform: rotate(45deg);
       margin-top: -5px;
@@ -76,4 +81,176 @@
       top: 0;
       transform: scale(1);
     }
+
+    #paragraph-1, #paragraph-2,
+    #paragraph-3, #paragraph-4 {
+      margin-left: 20px;
+    }
+
+    #paragraph-2, #paragraph-3,
+    #paragraph-4, #paragraph-6,
+    #paragraph-7, #paragraph-10 {
+      font-size: 24px;
+      line-height: 36px;
+      
+    }
+
+    #paragraph-2, #paragraph-3,
+    #paragraph-6,
+    #paragraph-7 {
+      width: 272px;
+      height: 72px;
+    }
+
+    #paragraph-4 {
+      width: 275px;
+    }
+
+    #banner-img {
+      width: 300px;
+      height: 80px;
+      margin-left: 20px;
+    }
+
+    #paragraph-5 {
+      margin: 100px 0 0 20px;
+    }
+    
+    #email-input {
+      margin: 5px 0 0 20px;
+      width: 300px;
+    }
+
+    #submit-btn {
+      margin-left: -100px;
+    }
+
+    #paragraph-6 {
+      margin: 119px 0 0 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 0;
+      
+      
+    }
+    .column {
+      width: 300px;
+    }
+    #paragraph-7 {
+      margin: 100px 0 0 10px;
+    }
+
+    .row-work {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+
+    .img-work {
+      width: 300px;
+		  height: 300px;
+      margin-left: 10px;
+		  
+    }
+
+    .subtitles, .app {
+      margin-left: 10px;
+    }
+
+    #book {
+      margin-top: 50px;
+    }
+
+    #frontend {
+      margin-top: 50px;
+    }
+
+    #more {
+      margin: 10px 0 0 10px;
+    }
+
+    #paragraph-8, #paragraph-9,
+    #desc-team {
+      margin-left: 10px;
+    }
+
+    #paragraph-8 {
+      margin-top: 150px;
+    }
+
+    .team {
+      display: flex;
+      flex-direction: column;
+          
+    }
+
+    .img-team {
+      margin-top: -100px;
+    
+    }
+
+    .img-team img{
+      width: 100px;
+      border-radius: 4px;
+    }
+
+    .person-1 {
+      margin-top: 120px;
+      margin-left: 5px;
+    }
+
+    .person-2 {
+      margin-top: 70px;
+      margin-left: 5px;
+    }
+
+    .person-3 {
+      margin-left: 10px;
+    }
+
+    #paragraph-10 {
+      margin-left: 10px;
+      width: 300px;
+      height: 180px;
+      font-size: 20px;
+    }
+
+    #carlos-img {
+      margin-left: 10px;
+    }
+
+    footer {
+      height: auto;
+    }
+
+    .contact {
+      flex-direction: column;
+		 justify-content: left;
+    }
+
+    .nav-footer {
+      margin-left: -140px;
+    }
+
+    .medias {
+      margin-left: 25px;
+    }
+
+    .input-footer {
+      margin-top: 30px;
+    }
+
+   footer p {
+      margin-top: 20px;
+      
+    }
+
+   
+
+
   }
